@@ -11,8 +11,7 @@ import java.io.PrintWriter;
 @WebServlet(urlPatterns = "/myServlet2")
 public class MyServlet2 extends HttpServlet {
 
-	protected void doPost(HttpServletRequest request,
-			HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
