@@ -1,5 +1,4 @@
 package ejemplos.servlet.curso;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -13,8 +12,6 @@ public class MyServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
-
-
 
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
